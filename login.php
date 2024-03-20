@@ -12,6 +12,7 @@ if(isset($_COOKIE['id_user']) && isset($_COOKIE['key'])){
 
      if($key === hash('sha256', $row['username'])){
           $_SESSION['login'] = true;
+          $_SESSION['nama'] = $username;
      }
     
 }
