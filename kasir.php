@@ -123,7 +123,7 @@ $keranjang = mysqli_query($conn,"SELECT * FROM tb_transaksi");
                          <!-- Form Kasir -->
                          <div class="w-[100%] h-auto border mx-auto py-5 mt-5 shadow-md">
                               <form class="mb-6" method="post">
-                                   <div class="mx-auto px-2 mb-5 text-base font-semibold bg-putih-0">
+                                   <div class="mx-auto px-2 mb-5 text-lg font-semibold bg-putih-0">
                                         <div class="border-2 rounded-md flex items-center justify-center">
                                              <input type="text" placeholder="Cari barang..." class="p-2 w-full"
                                                   name="input-search" list="barang-list" autofocus autocomplete="off"
