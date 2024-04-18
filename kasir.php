@@ -237,6 +237,9 @@ $keranjang = mysqli_query($conn,"SELECT * FROM tb_transaksi");
                                    </tbody>
                               </table>
                          </div>
+                         <div>
+                              <a href="print.php" class="text-blue-500">Print</a>
+                         </div>
                          <form action="" method="post" onsubmit="return confirmPayment();">
                               <div class="w-full mt-2 flex justify-end p-3 gap-2 border-2 text-2xl bg-hero-0">
                                    <label for="" class="text-white">TOTAL</label>

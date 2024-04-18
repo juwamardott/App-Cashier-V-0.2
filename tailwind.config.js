@@ -10,6 +10,8 @@ module.exports = {
     "./kasir.php",
     "./login.php",
     "./registrasi.php",
+    "./nota.php",
+    "./print.php",
   ],
   theme: {
     extend: {

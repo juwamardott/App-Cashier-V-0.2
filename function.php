@@ -226,6 +226,13 @@ function register($data) {
 
 
 
+function getTransaksi(){
+     global $conn;
+     $query = mysqli_query($conn,"SELECT * FROM tb_transaksi");
+     return $query;
+}
+
+
 
 
 ?>
