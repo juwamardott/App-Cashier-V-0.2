@@ -241,14 +241,14 @@ $keranjang = mysqli_query($conn,"SELECT * FROM tb_transaksi");
                               <a href="print.php" class="text-blue-500">Print</a>
                          </div>
                          <form action="" method="post" onsubmit="return confirmPayment();">
-                              <div class="w-full mt-2 flex justify-end p-3 gap-2 border-2 text-2xl bg-hero-0">
+                              <div class="w-full mt-2 flex justify-end p-3 gap-2 border-2 text-4xl bg-hero-0">
                                    <label for="" class="text-white">TOTAL</label>
                                    <input type="text" name="total" id="total" class="text-center"
                                         value="<?= number_format(getTotal(), 0, ',', '.');?>">
 
                               </div>
                               <div
-                                   class="w-full mt-5 flex items-center justify-end p-3 gap-2 border-2 text-2xl bg-hero-0">
+                                   class="w-full mt-5 flex items-center justify-end p-3 gap-2 border-2 text-4xl bg-hero-0">
                                    <label for="" class="text-white">BAYAR / F8</label>
                                    <input type="text" name="bayar" id="bayar" autofocus class="text-center"
                                         value="<?=isset($_POST['bayar']) ? number_format($_POST['bayar'],0,',','.') : '';?>">
@@ -256,7 +256,7 @@ $keranjang = mysqli_query($conn,"SELECT * FROM tb_transaksi");
                                         class="bg-ungu-0 p-2 hidden">Bayar</button>
                               </div>
                          </form>
-                         <div class="w-full mt-5 flex justify-end p-3 gap-2 border-2 text-2xl bg-hero-0">
+                         <div class="w-full mt-5 flex justify-end p-3 gap-2 border-2 text-4xl bg-hero-0">
                               <label for="" class="text-white">KEMBALI</label>
                               <input type="number" name="kembali" id="" class="text-center"
                                    value="<?= number_format($bayar, 0, ',', '.');?>">

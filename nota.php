@@ -16,7 +16,7 @@ $data = getTransaksi();
 </head>
 
 <body class="bg-gray-100 p-4">
-     <div class="max-w-md mx-auto bg-white p-8 rounded shadow-md h-auto hero">
+     <div class="max-w-md mx-auto bg-white p-8 rounded shadow-md h-auto hero content">
           <h1 class="text-2xl font-bold mb-4 text-center">Nota Belanja</h1>
           <div class="mb-4 text-center judul">
                <p class="font-semibold">Nama Toko: Toko Barokah</p>
